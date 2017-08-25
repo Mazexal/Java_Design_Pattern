@@ -15,7 +15,6 @@ public class NameRepository implements Container {
 
         int index;
 
-
         public boolean hasNext() {
             if(index < names.length){
                 return true;
